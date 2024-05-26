@@ -13,7 +13,7 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/lukiod/retinal-vessel-segment.git
+    git clone https://github.com/lukiod/Retinal-Vessel-Segment.git
     ```
 
 2. Install the required packages:
