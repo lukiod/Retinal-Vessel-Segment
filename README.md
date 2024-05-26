@@ -13,22 +13,25 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/retinal-vessel-segmentation.git
+    git clone https://github.com/lukiod/retinal-vessel-segment.git
     ```
 
 2. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
-
+3. Download model.h5 and model.json from HuggingFace ```https://huggingface.co/spaces/aiwaks/retinal``` and store it in files folder
+4. Download the Drive Dataset from    ```https://paperswithcode.com/dataset/drive```
 3. Run the GUI:
     - **Tkinter:**
         ```bash
-        python tkinter_gui.py
+        cd MP_RetinalVesselAnalysis\MP_RetinalVesselAnalysis
+        python cd.py
         ```
     - **Streamlit:**
         ```bash
-        streamlit run streamlit_gui.py
+        cd Model training
+        streamlit run app.py
         ```
 
 ## 📂 Dataset
