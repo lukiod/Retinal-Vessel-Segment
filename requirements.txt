@@ -1,0 +1,4 @@
+streamlit
+numpy
+opencv-contrib-python
+tensorflow==2.12.0
