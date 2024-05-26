@@ -1,4 +1,4 @@
-👁️ Retinal Vessel Segmentation 🔍
+👁️ Retinal Vessel Segmentation 🔍 '/n'
 This project brings 💡 deep learning to medical imaging by accurately segmenting retinal vessels from fundus images, enabling precise 👌 diagnosis and monitoring of eye diseases. Get ready for an awesome 🚀 user experience with two GUI options!
 🌟 Features
 
