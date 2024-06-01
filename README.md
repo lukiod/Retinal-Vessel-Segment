@@ -26,10 +26,26 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
         ```bash
         streamlit run app.py
         ```
+## 📂 Directory Structure
 
+The project directory contains the following structure:
+Retinal-Vessel-Segment/
+├── .git/
+├── pycache/
+├── app.py
+├── data.py
+├── eval.py
+├── files/
+├── metrics.py
+├── model.py
+├── new_data/
+├── README.md
+├── requirements.txt
+├── results/
+└── train.py
 ## 📂 Dataset
 
-Trained on the DRIVE dataset of fundus images with manual labels. 📈
+Trained on the DRIVE dataset of fundus images with manual labels.The dataset is in *.tif format 📈
 
 ## 🔭 Future Aspects
 
