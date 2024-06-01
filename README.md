@@ -4,7 +4,6 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
 
 ## 🌟 Features
 
-- **💻 Tkinter GUI:** Simple and intuitive interface for uploading and visualizing segmentation results.
 - **🌐 Streamlit GUI:** Interactive and modern GUI with real-time image processing.
 - **🧠 Deep Learning Models:** State-of-the-art algorithms for accurate segmentation.
 - **🤖 Ensemble Modeling:** Combining multiple models for improved performance.
@@ -29,20 +28,21 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
 ## 📂 Directory Structure
 
 The project directory contains the following structure:
-Retinal-Vessel-Segment/
-├── .git/
-├── pycache/
-├── app.py
-├── data.py
-├── eval.py
-├── files/
-├── metrics.py
-├── model.py
-├── new_data/
-├── README.md
-├── requirements.txt
-├── results/
-└── train.py
+
+    Retinal-Vessel-Segment/
+    ├── .git/
+    ├── pycache/
+    ├── app.py
+    ├── data.py
+    ├── eval.py
+    ├── files/
+    ├── metrics.py
+    ├── model.py
+    ├── new_data/
+    ├── README.md
+    ├── requirements.txt
+    ├── results/
+    └── train.py
 ## 📂 Dataset
 
 Trained on the DRIVE dataset of fundus images with manual labels.The dataset is in *.tif format 📈
