@@ -2,11 +2,19 @@
 
 This project brings 💡 deep learning to medical imaging by accurately segmenting retinal vessels from fundus images, enabling precise 👌 diagnosis and monitoring of eye diseases. Get ready for an awesome 🚀 user experience with two GUI options!
 
+
 ## 🌟 Features
 
 - **🌐 Streamlit GUI:** Interactive and modern GUI with real-time image processing.
 - **🧠 Deep Learning Models:** State-of-the-art algorithms for accurate segmentation.
 - **🤖 Ensemble Modeling:** Combining multiple models for improved performance.
+- 
+## 🌐 Published
+
+The model is published and available for use on HuggingFace:
+[HuggingFace - Retinal Model](https://huggingface.co/spaces/aiwaks/retinal)
+
+To try the project, download the repository and use images under the `new_data` directory as the model works for `png`, `jpg`, and `jpeg` image formats.
 
 ## 🚀 Getting Started
 
@@ -48,7 +56,7 @@ The project directory contains the following structure:
 
 - **.git/**: Directory containing the Git version control system files.
 - **__pycache__/**: Directory containing the compiled Python files.
-- **app.py**: Contains the application code to run the segmentation model, providing both Tkinter and Streamlit GUIs.
+- **app.py**: Contains the application code to run the segmentation model, providing Streamlit GUIs.
 - **data.py**: Handles data loading and preprocessing, including functions for reading images and preparing them for model input.
 - **eval.py**: Evaluates the trained model on the test dataset and generates performance metrics.
 - **files/**: Directory to store the pre-trained model files (`model.h5` and `model.json`).
@@ -56,7 +64,7 @@ The project directory contains the following structure:
 - **model.py**: Defines the neural network model architecture used for segmenting the retinal vessels.
 - **new_data/**: Directory for storing new datasets or any additional data required for model training or evaluation.
 - **README.md**: The file you are currently reading, which provides an overview and documentation for the project.
-- **requirements.txt**: Lists all the Python dependencies required to run the project. Use this file to install all dependencies with `pip install -r requirements.txt`.
+- **requirements.txt**: Lists all the Python dependencies required to run the project. Use this file to install all dependencies with`pip install -r requirements.txt`.
 - **results/**: Directory where the results of the model’s evaluation, including segmented images and performance metrics, will be saved.
 - **train.py**: Contains the training loop and logic, including functions for model training, validation, and saving the trained model.
 
