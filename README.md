@@ -22,15 +22,8 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
     ```
 3. Download model.h5 and model.json from HuggingFace ```https://huggingface.co/spaces/aiwaks/retinal``` and store it in files folder
 4. Download the Drive Dataset from    ```https://paperswithcode.com/dataset/drive```
-3. Run the GUI:
-    - **Tkinter:**
+3. - **Streamlit:**
         ```bash
-        cd MP_RetinalVesselAnalysis\MP_RetinalVesselAnalysis
-        python cd.py
-        ```
-    - **Streamlit:**
-        ```bash
-        cd Model training
         streamlit run app.py
         ```
 
@@ -50,7 +43,6 @@ Found an issue or have a cool idea? Open an issue or submit a pull request! 🎉
 
 ## 📄 License
 
-MIT License
 
 ## 🙏 Acknowledgments
 
