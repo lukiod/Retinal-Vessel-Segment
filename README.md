@@ -67,6 +67,9 @@ The project directory contains the following structure:
 - **requirements.txt**: Lists all the Python dependencies required to run the project. Use this file to install all dependencies with`pip install -r requirements.txt`.
 - **results/**: Directory where the results of the model’s evaluation, including segmented images and performance metrics, will be saved.
 - **train.py**: Contains the training loop and logic, including functions for model training, validation, and saving the trained model.
+  
+## About The Model 
+    The model hase been trained over U-Net Architecture. and has over 59 million neuron 
 
 ## 📂 Dataset
 
