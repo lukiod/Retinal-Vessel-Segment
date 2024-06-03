@@ -38,6 +38,42 @@ This project brings 💡 deep learning to medical imaging by accurately segmenti
 
 Trained on the DRIVE dataset of fundus images with manual labels. 📈
 
+## 📂 Directory Structure
+
+The project directory contains the following structure:
+
+    Retinal-Vessel-Segment/
+    ├── .git/
+    ├── pycache/
+    ├── app.py
+    ├── data.py
+    ├── eval.py
+    ├── files/
+    ├── metrics.py
+    ├── model.py
+    ├── new_data/
+    ├── README.md
+    ├── requirements.txt
+    ├── results/
+    └── train.py
+
+### File Descriptions
+
+- **.git/**: Directory containing the Git version control system files.
+- **__pycache__/**: Directory containing the compiled Python files.
+- **app.py**: Contains the application code to run the segmentation model, providing Streamlit GUIs.
+- **data.py**: Handles data loading and preprocessing, including functions for reading images and preparing them for model input.
+- **eval.py**: Evaluates the trained model on the test dataset and generates performance metrics.
+- **files/**: Directory to store the pre-trained model files (`model.h5` and `model.json`).
+- **metrics.py**: Defines metrics for evaluating the model's performance, such as accuracy, precision, recall, and F1 score.
+- **model.py**: Defines the neural network model architecture used for segmenting the retinal vessels.
+- **new_data/**: Directory for storing new datasets or any additional data required for model training or evaluation.
+- **README.md**: The file you are currently reading, which provides an overview and documentation for the project.
+- **requirements.txt**: Lists all the Python dependencies required to run the project. Use this file to install all dependencies with`pip install -r requirements.txt`.
+- **results/**: Directory where the results of the model’s evaluation, including segmented images and performance metrics, will be saved.
+- **train.py**: Contains the training loop and logic, including functions for model training, validation, and saving the trained model.
+  
+
 ## 🔭 Future Aspects
 
 - 📥 Integrate new deep learning architectures.
